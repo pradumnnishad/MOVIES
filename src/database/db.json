@@ -1,0 +1,60 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "movieName": "KGF",
+      "hero": "yash",
+      "gener": "action",
+      "rating": 4.5,
+      "poster": "https://images.fandango.com/ImageRenderer/820/0/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/215726/KGF_POSTER_Fandango.jpg"
+    },
+    {
+      "id": 2,
+      "movieName": "Kantara",
+      "hero": "rishab",
+      "gener": "devine comdey action",
+      "rating": 4.3,
+      "poster": "https://motivatevalmorgan.com/wp-content/uploads/2022/10/Kantara-Movie-Poster.jpg"
+    },
+    {
+      "id": 3,
+      "movieName": "Charlie",
+      "hero": "rakshit",
+      "gener": "drama",
+      "rating": 4.4,
+      "poster": "https://static.toiimg.com/photo/msid-91459288/91459288.jpg"
+    },
+    {
+      "movieName": "Bahuballi",
+      "hero": "Prabhash",
+      "gener": "Action",
+      "rating": "4.9",
+      "poster": "https://wallpapercave.com/wp/wp1851897.jpg",
+      "id": 6
+    },
+    {
+      "movieName": "Fast & Furious",
+      "hero": "Vin Disel",
+      "gener": "Action",
+      "rating": "5",
+      "poster": "https://www.themoviedb.org/t/p/original/2kZ2pAiVmhTC7UQGNK0INrjnx6M.jpg",
+      "id": 7
+    },
+    {
+      "movieName": "Dhoom-2",
+      "hero": "Hrithik Roshan",
+      "gener": "Action Drama",
+      "rating": "4.5",
+      "poster": "https://flxt.tmsimg.com/assets/p164256_p_v8_ac.jpg",
+      "id": 8
+    },
+    {
+      "movieName": "Avataar 2",
+      "hero": "Pradumn,Jitesh and Actress Sitakant",
+      "gener": "romantic and Action movies",
+      "rating": "10",
+      "poster": "https://i.pinimg.com/originals/83/8b/2c/838b2c4f6d1414f5cb8ee525e51939ce.jpg",
+      "id": 9
+    }
+  ]
+}

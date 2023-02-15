@@ -1,0 +1,148 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+  background-color: aqua;
+  width: 700px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a{
+  color: rgb(255, 0, 68);
+  text-decoration: none;
+}
+nav>a{
+  margin-left: 10px;
+}
+
+nav div a{
+  margin: 0px 5px;
+}
+.movies-list{
+  
+  background-color: indigo;
+  width: 700px;
+  height: auto;
+  margin: 10px auto;
+  
+   
+}
+.movie{
+  
+  width: 300px;
+  height: 350px;
+  margin: auto;
+  padding: 5px;
+  border: double 2px white;
+  border-radius: 8px;
+}
+.movie img{
+  height: 300px;
+  width: 300px;
+}
+.movie h1{
+  color: red;
+  margin: auto;
+}
+
+.loader{
+  width: 150px;
+  height: 150px;
+  border-left: 6px black dashed;
+  border-top: 6px black dashed;
+  border-radius: 50%;
+  margin: 20px auto;
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes loading {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.movie-detail{
+  background-color: bisque;
+  width: 700px;
+  height: auto;
+  margin: 10px auto;
+  padding: 10px;
+ 
+}
+.movie-detail img{
+  
+  width: 250px;
+  height: 300px;
+}
+.movie-detail button{
+  background-color: rgb(255, 0, 68);
+  color: white;
+  border: solid 2px crimson;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px 20px;
+}
+.movie-detail form:active{
+  background-color: white;
+  color: crimson;
+  border: solid 2px crimson;
+}
+.add-movie,.update-movie{
+    background-color: antiquewhite;
+    max-width: 700px;
+    height: auto;
+    padding: 10px;
+    margin: 10px auto;
+}
+.add-movie form,.update-movie form{
+  padding: 20px;
+  border: solid 2px black;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 200px 400px;
+  row-gap: 15px;
+}
+.add-movie form input,.update-movie form input{
+  height: 40px;
+  font-size: 20px;
+}
+
+/*  
+[{ 
+movie name:
+hero:
+heroin:
+director:
+poster:" img address"
+Gener:
+rating:
+lang:
+Yera of Releasing:
+}]
+
+*/
